@@ -1,7 +1,7 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: 'intransitive: program'
+  binding: Intransitive:program
   inspection: Not:UsesRepeat
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
